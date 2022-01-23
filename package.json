@@ -1,0 +1,26 @@
+{
+  "name": "cloudfront-auth",
+  "version": "0.1.0",
+  "bin": {
+    "cloudfront-auth": "bin/cloudfront-auth.js"
+  },
+  "scripts": {
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk": "1.133.0",
+    "@aws-cdk/assertions": "1.133.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^1.140.0",
+    "@aws-cdk/aws-cloudfront-origins": "^1.140.0",
+    "@aws-cdk/aws-s3": "^1.140.0",
+    "@aws-cdk/core": "1.133.0"
+  }
+}
